@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: wikistyle
+layout: main 
 ---
 
 Sangman Kim's Page 
