@@ -8,19 +8,16 @@ Sangman Kim's Blog
 
 This is Sangman's official blog. You may also want to take a look at [http://cs.utexas.edu/~sangmank](my academic page) or [http://www.cerc.utexas.edu/~jiwoo/](my wife Jiwoo's page). 
 
-<div id="home">
-    <h1>Writings</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-  
-  <h1>Things I like</h1>
-  <ul>
-  <li> <a href="http://www.github.com">github</a> </li>
-  <li> <a href="http://orgmode.org/">Emacs org mode</a> </li>
-  </ul>
+Writing
+-------
+ {% for post in site.posts %}
+ * {{ post.date | date_to_string }} - [{{ post.url }}]({{ post.title }})
+ {% endfor %}
 
-</div>
+Things I like
+-------------
+ * [http://www.github.com](github)
+ * [http://orgmode.org/](Emacs org mode)
+ *
+
 
