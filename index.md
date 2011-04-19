@@ -3,7 +3,8 @@ title: Home
 layout: default 
 ---
 
-== Sangman Kim's Blog ==
+Sangman Kim's Blog
+==================
 
 This is Sangman's official blog. You may also want to take a look at [http://cs.utexas.edu/~sangmank](my academic page) or [http://www.cerc.utexas.edu/~jiwoo/](my wife Jiwoo's page). 
 
