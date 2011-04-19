@@ -3,21 +3,19 @@ title: Home
 layout: wikistyle
 ---
 
-Introduction to Pages
+Sangman Kim's Page 
 =====================
 
-The GitHub Pages feature allows you to publish content to the web by simply pushing content to one of your GitHub hosted repositories. There are two different kinds of Pages that you can create: User Pages and Project Pages.
+Well, this is a test page for github page. (한글이 나오나?) I just wonder if many aspect of github works as I expect.
 
-User & Organization Pages
+Test (테스트)
 -------------------------
 
-Let's say your GitHub username is "alice". If you create a GitHub repository named `alice.github.com`, commit a file named `index.html` into the `master` branch, and push it to GitHub, then this file will be automatically published to [http://alice.github.com/](http://alice.github.com/).
+Test does mean test. Don't expect too much from this. 한글도 나와야 되고.
 
-On the first push, it can take up to ten minutes before the content is available.
+그것도 잘 나와야 되고.
 
-The same works for organizations.  If your org account is named "PlanEx", creating the repo `planex.github.com` under the org will publish pages to <http://planex.github.com/>.
-
-Real World Example: [github.com/defunkt/defunkt.github.com](http://github.com/defunkt/defunkt.github.com/) &rarr; [http://defunkt.github.com/](http://defunkt.github.com/).
+안나오기만 해봐라. 난 그래도 한글을 쓸거거등
 
 Project Pages
 -------------
