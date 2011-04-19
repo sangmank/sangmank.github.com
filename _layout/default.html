@@ -1,63 +1,36 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ page.title }}</title>
+   <meta name="author" content="Tom Preston-Werner" />
+   <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" />
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <title>GitHub Pages - {{ page.title }}</title>
-    <link href="http://github.com/stylesheets/bundle_common.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="http://github.com/stylesheets/bundle_github.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div id="main">
-      <div id="header" class="basic" style="margin-bottom:20px">
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 
-        <div class="site">
-          <div class="logo boring">
-            <a href="/"><img src="http://github.com/images/modules/header/logo_pages.png" alt="github pages" /></a>
-          </div>
-          <div class="topsearch">
-            <ul class="nav logged_out" style="margin-top:20px">
-              <li><a href="http://support.github.com/">Support</a></li>
-              <li><a href="http://github.com/">Back to GitHub</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
 
-      <div id="content" class="site">
+</head>
+<body>
 
-        {{ content }}
-
-      </div>
-
-      <div class="push"></div>
+<div class="site">
+  <div class="title">
+    <a href="/">Sangman Kim</a>
+    <a class="extra" href="/">home</a>
+  </div>
+  
+  {{ content }}
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Sangman Kim
+      </p>
     </div>
+  </div>
+</div>
 
-    <div id="footer">
-      <div class="site">
-
-        <div class="info">
-          <div class="links">
-            <a href="http://github.com/blog"><b>Blog</b></a> |
-            <a href="http://support.github.com/">Support</a> |
-            <a href="http://github.com/training">Training</a> |
-            <a href="http://github.com/contact">Contact</a> |
-            <a href="http://develop.github.com">API</a> |
-            <a href="http://status.github.com">Status</a> |
-            <a href="http://twitter.com/github">Twitter</a> |
-            <a href="http://github.com/security">Security</a>
-          </div>
-          <div class="company">
-           &copy;
-            {{ site.time | date: "%Y" }}
-            GitHub Inc.
-            All rights reserved.
-           | <a href="http://github.com/site/terms">Terms of Service</a> | <a href="http://github.com/site/privacy">Privacy</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+</body>
 </html>
