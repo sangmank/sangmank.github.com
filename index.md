@@ -31,4 +31,7 @@ Test does mean test. Don't expect too much from this. 한글도 나와야 되고
   
   <h1>Things I like</h1>
   <ul>
+  <li> <a href="http://www.github.com">github</a>
+  <li> <a href="http://orgmode.org/">Emacs org mode</a>
+  </ul>
 </div>
