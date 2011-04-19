@@ -5,3 +5,5 @@ title: README for source of sangmank.github.com
 To use Jekyll well, you can refer "Jekyll wiki":https://github.com/mojombo/jekyll/wiki
 
 You may use Textile markup with "Textile markup generator":http://textile.thresholdstate.com/
+
+Markup languages supported are listed in "Github Markup":https://github.com/github/markup/blob/master/README.md page
