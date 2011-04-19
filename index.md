@@ -6,7 +6,7 @@ layout: default
 Sangman Kim's Blog
 ==================
 
-This is Sangman's official blog. You may also want to take a look at [http://cs.utexas.edu/~sangmank](my academic page) or [http://www.cerc.utexas.edu/~jiwoo/](my wife Jiwoo's page). 
+This is Sangman's official blog. You may also want to take a look at [my academic page](http://cs.utexas.edu/~sangmank) or [my wife Jiwoo's page](http://www.cerc.utexas.edu/~jiwoo/). 
 
 Writing
 -------
