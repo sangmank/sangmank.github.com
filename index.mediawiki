@@ -3,17 +3,12 @@ title: Home
 layout: default 
 ---
 
-Sangman Kim's Blog
-=====================
+== Sangman Kim's Blog ==
 
-This is Sangman's official blog. You may also want to take a look at "my academic page":http://cs.utexas.edu/~sangmank or "my wife Jiwoo's page":http://www.cerc.utexas.edu/~jiwoo/
+This is Sangman's official blog. You may also want to take a look at [http://cs.utexas.edu/~sangmank my academic page] or [http://www.cerc.utexas.edu/~jiwoo/ my wife Jiwoo's page]. 
 
 <div id="home">
-  <h1>Publications</h1>
-  <ul class="pub">
-  </ul>
-
-  <h1>Writings</h1>
+    <h1>Writings</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -25,5 +20,6 @@ This is Sangman's official blog. You may also want to take a look at "my academi
   <li> <a href="http://www.github.com">github</a> </li>
   <li> <a href="http://orgmode.org/">Emacs org mode</a> </li>
   </ul>
+
 </div>
 
