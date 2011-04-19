@@ -16,8 +16,8 @@ Writing
 
 Things I like
 -------------
- * [http://www.github.com](github)
- * [http://orgmode.org/](Emacs org mode)
+ * [github](http://www.github.com)
+ * [Emacs org mode](http://orgmode.org/)
  *
 
 
