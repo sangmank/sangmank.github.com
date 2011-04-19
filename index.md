@@ -18,6 +18,4 @@ Things I like
 -------------
  * [github](http://www.github.com)
  * [Emacs org mode](http://orgmode.org/)
- *
-
 
