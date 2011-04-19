@@ -11,7 +11,7 @@ This is Sangman's official blog. You may also want to take a look at [my academi
 Writing
 -------
  {% for post in site.posts %}
- * {{ post.date | date_to_string }} - [{{ post.url }}]({{ post.title }})
+ * {{ post.date | date_to_string }} - [{{ post.title }}]({{ post.url }})
  {% endfor %}
 
 Things I like
