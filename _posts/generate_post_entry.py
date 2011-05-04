@@ -1,10 +1,13 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 import sys, os, re
 import datetime 
+import krt
 
 orig_title = raw_input("what is the title? (only alphabet or numbers or spaces)")
 
 title = orig_title.replace(" ", "-")
+title = krt.romanize(title)
 
 title = re.sub("[^a-zA-Z0-9 -]", "-", title)
 
