@@ -9,24 +9,12 @@ layout: default
   <p><fb:login-button autologoutlink="true"></fb:login-button></p>
   <p><fb:like></fb:like></p>
 
-  <div id="fb-root"></div>
-  <script>
-  window.fbAsyncInit = function() {
-          FB.init({appId: '209097735787825', status: true, cookie: true,
-                          xfbml: true});
-  };
-  (function() {
-   var e = document.createElement('script');
-   e.type = 'text/javascript';
-   e.src = document.location.protocol +
-   '//connect.facebook.net/en_US/all.js';
-   e.async = true;
-   document.getElementById('fb-root').appendChild(e);
-   }());
-  </script>
-
-  <!-- <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>-->
-  <fb:comments href="http://sangmank.github.com{{ page.url }}" num_posts="5" width="700"></fb:comments>
+  {% if page.comments %} 
+  <hr/>
+  <h2>Comments</h2>
+  <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}"
+       data-num-posts="4" data-width="706"></div>
+  {% endif%}
 </div>
 
 <div id="related">

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 해피스트베이비온더블락
+comments: yes
 ---
 
 h1. {{ page.title }}
