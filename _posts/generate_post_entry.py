@@ -63,6 +63,8 @@ def main():
                 entryf.write("""---
 layout: post
 title: %s
+comments: no
+published: false
 ---
 
 h1. {{ page.title }}"""%orig_title)
@@ -70,6 +72,8 @@ h1. {{ page.title }}"""%orig_title)
                 entryf.write("""---
 layout: post
 title: %s
+comments: no
+published: false
 ---
 
 {{ page.title }}
