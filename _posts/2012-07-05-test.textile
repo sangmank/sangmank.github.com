@@ -2,7 +2,9 @@
 layout: post
 title: test
 comments: no
-published: false
+published: true
 ---
 
 h1. {{ page.title }}
+
+Hey. This is a title. Can you see this?
