@@ -1,0 +1,8 @@
+---
+layout: post
+title: test
+comments: no
+published: false
+---
+
+h1. {{ page.title }}
