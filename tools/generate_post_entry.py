@@ -4,6 +4,7 @@ import sys, os, re
 import datetime 
 import krt
 import getopt
+import subprocess
 
 def usage():
         print """usage:
@@ -22,7 +23,10 @@ def main():
                 sys.exit(1)
         
         orig_title = None
-        markup = "textile"
+        markup = "markdown"
+
+        git_root = subprocess.check_output(["git", "rev-parse", "--show-toplevel"]).strip()
+        print "git root: %s"%git_root
         
         for o, a in opts:
                 if o in ("-h", "--help"):
@@ -52,12 +56,14 @@ def main():
         assert markup in exts, "markup %s not in exts %s" % ( markup, exts )
 
         filename = "%s-%s.%s"%(today.strftime("%Y-%m-%d"), title, exts[markup])
+        post_dir = "%s/_posts"%git_root
+        file_path = "%s/%s"%(post_dir, filename)
 
-        if filename in os.listdir("."):
+        if os.path.exists(file_path):
                 print "file %s already exists"%filename
                 sys.exit(1)
         
-        entryf = open(filename, "w")
+        entryf = open(file_path, "w")
 
         if markup == "textile":
                 entryf.write("""---
